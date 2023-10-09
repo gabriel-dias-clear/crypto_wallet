@@ -2,7 +2,7 @@ class CoinsController < ApplicationController
   before_action :set_coin, only: %i[ show edit update destroy ]
 
   # GET /coins or /coins.json
-  def index
+  def index()
     @coins = Coin.all
   end
 
