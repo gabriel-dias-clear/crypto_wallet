@@ -4,7 +4,7 @@ class CreateCoins < ActiveRecord::Migration[7.1]
       t.string :description
       t.string :acronym
       t.string :url_image
-
+      
       t.timestamps
     end
   end
